@@ -1,1 +1,0 @@
-//  Answers of the participants //
