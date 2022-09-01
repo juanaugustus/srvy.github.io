@@ -86,12 +86,12 @@ body{
   #textarea, .demographic {
     width: 80%;
   }
- 
+}
  @media only screen and (max-width: 600px) {
   .education, question-1, .question-2 {
     width: 80%;
   }
-
+}
 @media only screen and (max-width: 600px) {
    .question-3 {
     width: 80%;
