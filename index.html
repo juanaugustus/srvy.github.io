@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+  </head>
+    <body>
+    <div class="container">
+        <header id="header">
+            <h1> Survey Form </h1>
+            <p> a short survey form </p>
+        </header>
+        <form id="survey-form" action="www.juan-rekoms.com">
+            <h2> Demographic Profile </h2>
+            <div class="demographic">
+               <label id="name-label" for="name"> Full Name </label><br>
+                <input type="text" id="name" placeholder="e.g Juan Dela Cruz" required><br>
+                <label id="email-label" for="email"> Email Address </label><br>
+                <input type="email" id="email" placeholder="e.g Juan_DelaCruz@gmail.com" required><br>
+                <label id="number-label" for="number"> Age (optional) </label><br>
+                <input type="number" id="number" min="10" max="69"/><br>
+            </div>
+            <h2> Education Profile </h2>
+            <div class="education">
+                <p> What is your highest educational attainment?</p>
+                <select id="dropdown">
+                    <option disabled selected> Select here </option>
+                    <option> Elementary </option>
+                    <option> High School </option>
+                    <option> Senior High School </option>
+                    <option> College </option>
+                </select>
+            </div>
+            <h2> Question 1</h2>
+            <div class="question-1">
+                <p> If you were to be born again, would you like to take it? </p>
+                <input type="radio" value="yes" name="yes"> Yes
+                <input type="radio" value="no" name="yes"> No
+            </div>
+            <h2> Identity Question </h2>
+            <div class="question-2" >
+                <p> Are you? </p>
+                <label>
+                <input type="checkbox" value="male" name="prefer"/> Male
+                <input type="checkbox" value="female" name="prefer"/> Female
+                </label>
+            </div>
+            <div class="question-3">
+                <h2> Continuation Question from Question 1</h2>
+                <p> Why did you choose to be born again?/
+                Why didn't you choose to be born again?</p>
+                <textarea rows="20" cols="68" id="textarea"></textarea>
+            </div>
+            <button id="submit" value="submit"> Submit </button>
+        </form>
+    </div>
+
+    </body>
+</html>
