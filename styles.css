@@ -102,3 +102,23 @@ body{
  font-size: 20px;
  margin-bottom: 60px;
 }
+#submit a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#submit a:hover{
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    padding: auto 3rem;
+    font-size: large;
+}
+#submit:hover{
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    padding: auto 3rem;
+    font-size: large;
+}
